@@ -1,6 +1,6 @@
 name = "Cutaway"
 uuid = "accbb8c4-5e3d-4a74-b963-dcfa9d436f57"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Tamas Gal"]
 
 [deps]
