@@ -1,9 +1,12 @@
 # API
 
-
 ```@index
 ```
 
 ```@docs
-meaningoflife
+AbstractCut
+Cut
+CutHist
+iscumulative
+push!(::CutHist, ::Any, ::Any)
 ```

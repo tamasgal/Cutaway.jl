@@ -13,8 +13,10 @@ makedocs(;
     warnonly = [:missing_docs],
     pages = [
         "Home" => "index.md",
+        "Manual" => "manual.md",
         "Examples" => Any[
-            "examples/an_example.md",
+            "examples/independent_cuts.md",
+            "examples/cumulative_cuts.md",
         ],
         "API" => "api.md"
     ],
