@@ -5,8 +5,12 @@ Cutaway = "accbb8c4-5e3d-4a74-b963-dcfa9d436f57"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 DocumenterInterLinks = "d12716ef-a0f6-4df4-a9f1-a5a34e75c656"
+FHist = "68837c9b-b678-4cd5-9925-8a54edc8f695"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[sources]
+Cutaway = {path = ".."}
 
 [compat]
 CSV = "0.10"
@@ -15,6 +19,3 @@ DataFrames = "1"
 Documenter = "1"
 DocumenterInterLinks = "1.1"
 StatsBase = "0.34"
-
-[sources]
-Cutaway = {path = ".."}

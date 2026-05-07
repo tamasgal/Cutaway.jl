@@ -17,6 +17,7 @@ makedocs(;
         "Examples" => Any[
             "examples/independent_cuts.md",
             "examples/cumulative_cuts.md",
+            "examples/fhist.md",
         ],
         "API" => "api.md"
     ],
