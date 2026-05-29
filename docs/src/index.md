@@ -11,10 +11,8 @@ top of all preceding ones).
 
 ## Installation
 
-`Cutaway.jl` is not in the General registry but is available via the
-[KM3NeT Julia registry](https://git.km3net.de/common/julia-registry):
+`Cutaway.jl` is registered in the Julia General registry:
 
-    git clone https://git.km3net.de/common/julia-registry ~/.julia/registries/KM3NeT
     julia> import Pkg; Pkg.add("Cutaway")
 
 ## Quickstart
