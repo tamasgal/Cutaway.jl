@@ -21,14 +21,11 @@ makedocs(;
         ],
         "API" => "api.md"
     ],
-    repo = Documenter.Remotes.URL(
-        "https://git.km3net.de/tgal/Cutaway.jl/blob/{commit}{path}#L{line}",
-        "https://git.km3net.de/tgal/Cutaway.jl"
-    ),
+    repo = Documenter.Remotes.GitHub("tamasgal", "Cutaway.jl"),
 )
 
 deploydocs(;
-  repo = "git.km3net.de/tgal/Cutaway.jl",
+  repo = "github.com/tamasgal/Cutaway.jl",
   devbranch = "main",
-  push_preview=true
+  push_preview = true,
 )

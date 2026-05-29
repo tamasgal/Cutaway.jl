@@ -1,9 +1,8 @@
 # Cutaway
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://tgal.pages.km3net.de/Cutaway.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://tgal.pages.km3net.de/Cutaway.jl/dev)
-[![Build Status](https://git.km3net.de/tgal/Cutaway.jl/badges/main/pipeline.svg)](https://git.km3net.de/tgal/Cutaway.jl/pipelines)
-[![Coverage](https://git.km3net.de/tgal/Cutaway.jl/badges/main/coverage.svg)](https://git.km3net.de/tgal/Cutaway.jl/commits/main)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://tamasgal.github.io/Cutaway.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://tamasgal.github.io/Cutaway.jl/dev)
+[![Build Status](https://github.com/tamasgal/Cutaway.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/tamasgal/Cutaway.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
 `Cutaway.jl` bundles a histogram with a list of cuts and fills one
 filtered histogram per cut as you stream data through it. Cuts can be
@@ -46,6 +45,6 @@ as an ordered chain instead, so `chist.hcuts[i]` only fills when cuts
 `1..i` all pass.
 
 Plotting examples with CairoMakie are available under
-[Independent cuts](https://tgal.pages.km3net.de/Cutaway.jl/dev/examples/independent_cuts/)
+[Independent cuts](https://tamasgal.github.io/Cutaway.jl/dev/examples/independent_cuts/)
 and
-[Cumulative cuts](https://tgal.pages.km3net.de/Cutaway.jl/dev/examples/cumulative_cuts/).
+[Cumulative cuts](https://tamasgal.github.io/Cutaway.jl/dev/examples/cumulative_cuts/).
